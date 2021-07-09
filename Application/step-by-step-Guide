@@ -1,7 +1,7 @@
 Step by Step Guide To run the project
 1) restart the VM 
 2)connect the USB 
-3) sudo ./tapsetup (in the right folder)
+3) sudo ./tapsetup (in the right folder: RIOT/dist/tools/tapsetup)
 4) sudo ip -6 addr add 2001:db8:0:f101::1/64 dev tapbr0
 5) sudo ./broker_mqtts config.conf (in the right folder) 
 6) make BOARD=nucleo-f401re flash term (in the project folder)
